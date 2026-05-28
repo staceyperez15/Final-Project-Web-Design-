@@ -338,9 +338,13 @@ nav h1{
     display:none;
   }
 
+  .project-grid{
+    padding:40px 25px;
+  }
+
   .project-grid .card,
   .project-grid .card-link{
-    flex:0 0 75%;
+    flex:0 0 320px;
   }
 
 }
