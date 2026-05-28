@@ -340,7 +340,7 @@ nav h1{
 
   .project-grid .card,
   .project-grid .card-link{
-    min-width:77%;
+    flex:0 0 75%;
   }
 
 }
