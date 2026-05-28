@@ -14,24 +14,28 @@
 
   <nav>
 
-    <div class="logo">
+  <div class="logo">
 
-  <img
-    src="chibi logo.png"
-    alt="Stacey Perez Logo"
-  >
+    <img
+      src="chibi logo.png"
+      alt="Stacey Perez Logo"
+    >
 
-  <h1>Stacey Perez</h1>
+    <h1>Stacey Perez</h1>
 
-</div>
+  </div>
 
-    <div class="menu">
-      <a href="index.html">Inicio</a>
-      <a href="about.html">Sobre Mi</a>
-      <a href="blog.html">Blog</a>
-    </div>
+  <div class="burger-menu" id="hamburger">
+    <span></span>
+  </div>
 
-  </nav>
+  <div class="menu" id="menu">
+    <a href="index.html">Inicio</a>
+    <a href="about.html">Sobre Mi</a>
+    <a href="blog.html">Blog</a>
+  </div>
+
+</nav>
 
 </header>
 
@@ -70,47 +74,59 @@
 
   <h2>📁 Featured Missions</h2>
 
-  <div class="project-grid">
+  <div class="carousel-container">
 
-  <!-- CARD 1 -->
-  <a href="https://staceyperez15.github.io/" target="_blank" class="card-link">
+  <button class="carousel-btn left" id="leftBtn">
+    ❮
+  </button>
+
+  <div class="project-grid" id="carousel">
+
+    <!-- CARD 1 -->
+    <a href="https://staceyperez15.github.io/" target="_blank" class="card-link">
+      <div class="card">
+
+        <h3>Jewelry Shop Website 🛍️</h3>
+        <h4 class="status">STATUS: ACTIVE PROJECT</h4>
+
+        <p>
+          A modern jewelry e-commerce concept designed with soft aesthetics, focusing on user experience, product presentation, and clean navigation.
+        </p>
+
+      </div>
+    </a>
+
+    <!-- CARD 2 -->
     <div class="card">
 
-      <h3>Jewelry Shop Website 🛍️</h3>
-      <h4 class="status">STATUS: ACTIVE PROJECT</h4>
+      <h3>📚 Training Archive</h3>
+
+      <h4 class="status">STATUS: COMPLETED TRAINING</h4>
 
       <p>
-        A modern jewelry e-commerce concept designed with soft aesthetics, focusing on user experience, product presentation, and clean navigation.
+        I learned HTML structure, CSS styling, responsive layouts, animations, and basic JavaScript interactivity through hands-on projects.
       </p>
 
     </div>
-  </a>
 
-  <!-- CARD 2 -->
-  <div class="card">
+    <!-- CARD 3 -->
+    <div class="card">
 
-    <h3>📚 Training Archive</h3>
+      <h3>🕵️ Agent Communication Hub</h3>
 
-    <h4 class="status">STATUS: COMPLETED TRAINING</h4>
+      <h4 class="status">STATUS: CODED WITH KODLAND</h4>
 
-    <p>
-      I learned HTML structure, CSS styling, responsive layouts, animations, and basic JavaScript interactivity through hands-on projects.
-    </p>
+      <p>
+        Kodland is a learning platform where I built my coding foundation through interactive lessons and creative web projects.
+      </p>
 
-  </div>
-
-  <!-- CARD 3 -->
-  <div class="card">
-
-    <h3>🕵️ Agent Communication Hub</h3>
-
-    <h4 class="status">STATUS: CODED WITH KODLAND</h4>
-
-    <p>
-      Kodland is a learning platform where I built my coding foundation through interactive lessons and creative web projects.
-    </p>
+    </div>
 
   </div>
+
+  <button class="carousel-btn right" id="rightBtn">
+    ❯
+  </button>
 
 </div>
 
